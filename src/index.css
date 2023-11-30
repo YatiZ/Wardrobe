@@ -1,13 +1,26 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: bisque;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@keyframes rotate-style {
+	from,
+	to {
+		animation-timing-function: ease-in;
+		transform: rotateY(-20deg);
+	}
+	25%,
+	75% {
+		animation-timing-function: ease-out;
+		transform: rotateY(0deg);
+	}
+	50% {
+		animation-timing-function: ease-in;
+		transform: rotateY(20deg);
+	}
 }
