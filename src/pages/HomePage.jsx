@@ -12,8 +12,8 @@ const HomePage = () => {
       };
      
   return (
-    <div className=''>
-       <h1 className='text-center'>Yati's Wardrobe</h1>
+    <div className=' font-Caveat pt-5'>
+       <h1 className='text-center text-5xl'>Yati's Wardrobe</h1>
        <div className='flex flex-row justify-around overflow-hidden relative'>
        {HomeData.map((data,index)=>(
              <div key={index}>

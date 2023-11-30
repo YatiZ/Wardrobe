@@ -9,12 +9,12 @@ import img8 from '../images/top-images/photo_2023-11-30 18.09.04.jpeg';
 
 
 export const tops = [
-    {id:1,name:'crop-top',img:img1, rotationDeg:-2},
-    {id:2,name:'crop-top',img:img2, rotationDeg:3},
-    {id:3,name:'crop-top',img:img3, rotationDeg:-2},
-    {id:4,name:'crop-top',img:img4, rotationDeg:2},
-    {id:5,name:'crop-top',img:img5, rotationDeg:-4},
-    {id:6,name:'crop-top',img:img6, rotationDeg:3},
-    {id:7,name:'crop-top',img:img7, rotationDeg:-2},
-    {id:8,name:'crop-top',img:img8, rotationDeg:2},
+    {id:1,name:'crop-top',img:img1, rotationDeg:-2,type:'top'},
+    {id:2,name:'crop-top',img:img2, rotationDeg:3,type:'top'},
+    {id:3,name:'crop-top',img:img3, rotationDeg:-2,type:'top'},
+    {id:4,name:'crop-top',img:img4, rotationDeg:2,type:'top'},
+    {id:5,name:'crop-top',img:img5, rotationDeg:-4,type:'top'},
+    {id:6,name:'crop-top',img:img6, rotationDeg:3,type:'top'},
+    {id:7,name:'crop-top',img:img7, rotationDeg:-2,type:'top'},
+    {id:8,name:'crop-top',img:img8, rotationDeg:2,type:'top'},
 ]
